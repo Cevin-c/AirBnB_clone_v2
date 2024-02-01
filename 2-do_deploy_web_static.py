@@ -9,7 +9,7 @@ from fabric.operations import run, put
 from datetime import datetime
 
 
-env.hosts = ['3.227.217.150', '3.95.27.202']
+env.hosts = ['54.144.136.64', '100.24.236.179']
 env.user = "ubuntu"
 
 
