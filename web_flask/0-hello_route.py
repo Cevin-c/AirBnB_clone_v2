@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 """
 Run an app with Flask web framework
 """
@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/airbnb-onepage/')
 def hello_hbnb():
     """ Function that says Hello """
     return 'Hello HBNB!'
